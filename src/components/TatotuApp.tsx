@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navbar } from './sections/Navigation/Navbar';
 import { Hero } from './sections/Hero';
+import { AboutSection } from './sections/About/AboutSection';
 import { InventorySection } from './sections/Inventory/InventorySection';
 import { InterviewSection } from './sections/Interview/InterviewSection';
 import { CarReviewSection } from './sections/CarReview/CarReviewSection';
@@ -18,9 +19,10 @@ const TatotuApp: React.FC = () => {
             >
                 <Navbar />
                 <Hero />
-                <InventorySection id="inventory" />
+                <AboutSection id="about" />
                 <InterviewSection id="interview" />
                 <CarReviewSection id="car-reviews" />
+                <InventorySection id="inventory" />
                 <RecipeSection id="recipes" />
                 <Footer />
             </div>

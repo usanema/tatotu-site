@@ -16,3 +16,8 @@ export interface RecipeItem {
     ingredients: string[];
     image: string;
 }
+
+export interface SectionProps {
+    id?: string;
+    className?: string;
+}
